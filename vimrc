@@ -28,6 +28,7 @@ set ttymouse=xterm2
 set number
 let NERDTreeIgnore = ['__pycache__']
 set splitright
+set clipboard=unnamed
 
 " Map function keys to tabs
 map <Esc>OP :tabn1<CR>
