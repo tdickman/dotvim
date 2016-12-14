@@ -95,3 +95,10 @@ nnoremap <c-l> <c-w>l
 
 " Fix weird colorness in vim when using tmux
 set t_ut=
+
+" Make mouse work properly beyond column 220
+if has("mouse_sgr")
+    set ttymouse=sgr
+else
+    set ttymouse=xterm2
+end
