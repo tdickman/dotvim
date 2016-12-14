@@ -11,10 +11,8 @@ Create symlinks:
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
 
-Switch to the `~/.vim` directory, and fetch submodules:
+Install dependencies:
 
-    cd ~/.vim
-    git submodule init
-    git submodule update
+    vim +PlugInstall +qall
 
 Source: http://dudarev.com/blog/keep-vim-settings-and-plugins-in-git-repo/

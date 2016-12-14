@@ -1,3 +1,19 @@
+" Specify a directory for plugins (for Neovim: ~/.local/share/nvim/plugged)
+call plug#begin('~/.vim/plugged')
+
+" Plugins
+Plug 'https://github.com/vim-scripts/Conque-Shell.git'
+Plug 'https://github.com/scrooloose/nerdtree.git'
+Plug 'https://github.com/Xuyuanp/nerdtree-git-plugin.git'
+Plug 'https://github.com/vim-syntastic/syntastic.git'
+Plug 'git://github.com/tpope/vim-fugitive.git'
+Plug 'git://github.com/airblade/vim-gitgutter.git'
+Plug 'https://github.com/elzr/vim-json.git'
+Plug 'https://github.com/jistr/vim-nerdtree-tabs.git'
+Plug 'https://github.com/christoomey/vim-tmux-navigator.git'
+
+call plug#end()
+
 " Fugitive
 call pathogen#infect()
 call pathogen#helptags()
